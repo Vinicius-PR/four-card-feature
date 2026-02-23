@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors Variables */
+  --grey-500: #4D4F62;
+  --grey-400: #6A7178;
+  --white: #FFFFFF;
+  --red: #EA5454;
+  --cyan: #44D3D2;
+  --blue: #549EF2;
+  --orange: #FCAE4A;
+
+  /* Spacing Variables */
+  --spacing-500: 2.5rem;  /* 40px */
+  --spacing-400: 2rem;    /* 32px */
+  --spacing-300: 1.5rem;  /* 24px */
+  --spacing-200: 1rem;    /* 16px */
+  --spacing-100: 0.5rem;  /* 8px */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+/* Poppins Semibold - 36px */
+.text-preset-1 {
+  font-weight: 600;
+  font-size: 2.25rem; /* 36px */
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+}
+
+/* Poppins Extra Light - 36px */
+.text-preset-2 {
+  font-weight: 200;
+  font-size: 2.25rem; /* 36px */
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+}
+
+/* Poppins Semibold - 20px */
+.text-preset-3 {
+  font-weight: 600;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.35;
+}
+
+/* Poppins Regular - 15px */
+.text-preset-4 {
+  font-weight: 400;
+  font-size: 0.9375rem; /* 15px */
+  line-height: 1.4;
+}
+
+/* Poppins Regular - 13px */
+.text-preset-5 {
+  font-weight: 400;
+  font-size: 0.8125rem; /* 13px */
+  line-height: 1.6;
+}
